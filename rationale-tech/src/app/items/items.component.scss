@@ -1,0 +1,387 @@
+$position: absolute;
+$font-family: 'Metropolis';
+$font-style: normal;
+$font-weight: 500;
+$dark-blue: #120C39;
+$line-color: #CFCFCF;
+#rectangleWithInfo {
+    box-sizing: border-box;
+    position: $position;
+    width: 1385px;
+    height: 30px;
+    left: 105px;
+    top: 180px;
+    border-radius: 5px;
+}
+
+p {
+    position: $position;
+    height: 12px;
+    top: 190px;
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: 12px;
+    line-height: 12px;
+    color: $dark-blue;
+}
+
+#date {
+    width: 26px;
+    left: 114px;
+}
+
+#title {
+    width: 23px;
+    left: 199px;
+}
+
+#businessUnit {
+    width: 77px;
+    left: 500px;
+}
+
+#withUser {
+    width: 58px;
+    left: 950px;
+}
+
+#delay {
+    width: 31px;
+    left: 1230px;
+}
+
+#status {
+    width: 34px;
+    left: 1372px;
+}
+
+#rectangle1,
+#rectangle2,
+#rectangle3 {
+    box-sizing: border-box;
+    position: $position;
+    width: 1385px;
+    height: 72px;
+    left: 105px;
+    border-radius: 5px;
+}
+
+#rectangle1 {
+    top: 220px;
+}
+
+#rectangle2 {
+    top: 300px;
+}
+
+#rectangle3 {
+    top: 380px;
+}
+
+#line1,
+#line2,
+#line3 {
+    left: 145px;
+}
+
+#line1,
+#line2,
+#line3,
+#line11,
+#line22,
+#line33 {
+    position: $position;
+    width: 54px;
+    height: 0px;
+    border: 0.7px dashed $line-color;
+    transform: rotate(90deg);
+}
+
+#line1,
+#line11 {
+    top: 255px;
+}
+
+#line2,
+#line22 {
+    top: 335px;
+}
+
+#line3,
+#line33 {
+    top: 415px;
+}
+
+#line11,
+#line22,
+#line33 {
+    left: 900px;
+}
+
+.texts {
+    position: $position;
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: 15px;
+    line-height: 12px;
+    color: $dark-blue;
+}
+
+#textTitle1 {
+    width: 198px;
+    height: 12px;
+    left: 199px;
+    top: 249px;
+}
+
+#textBusinessUnit1 {
+    width: 162px;
+    height: 12px;
+    left: 500px;
+    top: 249px;
+}
+
+#textTitle2 {
+    width: 198px;
+    height: 12px;
+    left: 199px;
+    top: 330px;
+}
+
+#textBusinessUnit2 {
+    width: 162px;
+    height: 12px;
+    left: 500px;
+    top: 330px;
+}
+
+#textTitle3 {
+    width: 198px;
+    height: 12px;
+    left: 199px;
+    top: 409px;
+}
+
+#textBusinessUnit3 {
+    width: 162px;
+    height: 12px;
+    left: 500px;
+    top: 409px;
+}
+
+#photoOne {
+    position: $position;
+    width: 46px;
+    height: 46px;
+    left: 950px;
+    top: 233px;
+}
+
+#photoTwo {
+    position: $position;
+    width: 46px;
+    height: 46px;
+    left: 950px;
+    top: 315px;
+}
+
+#textNoUser {
+    position: $position;
+    width: 60px;
+    height: 12px;
+    left: 943px;
+    top: 400px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #BABABA;
+}
+
+#overdue {
+    position: $position;
+    width: 82px;
+    height: 20px;
+    left: 1230px;
+    top: 408px;
+    background: #EA4335;
+    opacity: 0.15;
+    border-radius: 20px;
+}
+
+#textOverdue {
+    position: $position;
+    width: 66px;
+    height: 12px;
+    left: 1238px;
+    top: 412px;
+    line-height: 12px;
+    color: #EA4335;
+}
+
+#btnInspectOne {
+    box-sizing: border-box;
+    position: $position;
+    width: 30px;
+    height: 30px;
+    left: 1327px;
+    top: 240px;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+#btnInspectTwo {
+    box-sizing: border-box;
+    position: $position;
+    width: 30px;
+    height: 30px;
+    left: 1327px;
+    top: 321px;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+#btnInspectThree {
+    box-sizing: border-box;
+    position: $position;
+    width: 30px;
+    height: 30px;
+    left: 1327px;
+    top: 402px;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+#eyeOne1 {
+    position: absolute;
+    width: 14.99px;
+    height: 11px;
+    left: 1335px;
+    top: 250px;
+}
+
+#eyeTwo1 {
+    position: absolute;
+    width: 4.71px;
+    height: 4.71px;
+    left: 1340.14px;
+    top: 253.14px;
+}
+
+#eyeOne2 {
+    position: absolute;
+    width: 14.99px;
+    height: 11px;
+    left: 1335px;
+    top: 330px;
+}
+
+#eyeTwo2 {
+    position: $position;
+    width: 4.71px;
+    height: 4.71px;
+    left: 1340.14px;
+    top: 333.14px;
+}
+
+#eyeOne3 {
+    position: $position;
+    width: 14.99px;
+    height: 11px;
+    left: 1335px;
+    top: 412px;
+}
+
+#eyeTwo3 {
+    position: $position;
+    width: 4.71px;
+    height: 4.71px;
+    left: 1340.14px;
+    top: 415.14px;
+}
+
+.oval {
+    position: $position;
+    width: 92px;
+    height: 30px;
+    left: 1372px;
+    opacity: 0.2;
+    border-radius: 4px;
+}
+
+#oval1 {
+    top: 240px;
+    background: #5CB85C;
+}
+
+#oval2 {
+    top: 321px;
+    background: #FFB017;
+}
+
+#oval3 {
+    top: 402px;
+    background: #EA4335;
+}
+
+#status1 {
+    width: 58px;
+    height: 12px;
+    left: 1388px;
+    top: 249px;
+    line-height: 12px;
+    color: #5CB85C;
+}
+
+#status2 {
+    width: 66px;
+    height: 12px;
+    left: 1386px;
+    top: 330px;
+    line-height: 12px;
+    color: #F5A11D;
+}
+
+#status3 {
+    width: 51px;
+    height: 12px;
+    left: 1392px;
+    top: 412px;
+    line-height: 12px;
+    color: #EA4335;
+}
+
+#dateRectangle1 {
+    position: absolute;
+    width: 6px;
+    height: 35px;
+    left: 105px;
+    top: 238px;
+    background: #5CB85C;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#dateRectangle2 {
+    position: absolute;
+    width: 6px;
+    height: 35px;
+    left: 105px;
+    top: 320px;
+    background: #FFB017;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#dateRectangle3 {
+    position: absolute;
+    width: 6px;
+    height: 35px;
+    left: 105px;
+    top: 400px;
+    background: #EA4335;
+    border-radius: 0px 4px 4px 0px;
+}

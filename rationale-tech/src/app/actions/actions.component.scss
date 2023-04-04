@@ -1,0 +1,211 @@
+$darkBlue: #120C39;
+$position: absolute;
+$white: #FFFFFF;
+$rectangleWidth: 115px;
+$rectangleHeight: 65px;
+$box-shadow: 0px 0px 10px rgba(160, 160, 160, 0.1);
+$border-radius: 5px;
+$top: 97px;
+$font-family: 'Metropolis';
+$font-style: normal;
+p {
+    position: $position;
+    font-family: $font-family;
+    font-style: $font-style;
+}
+
+#waitingYourAction {
+    width: 136px;
+    height: 14px;
+    left: 105px;
+    top: 68px;
+    line-height: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    color: $darkBlue;
+}
+
+#rectangle1,
+#rectangle2,
+#rectangle3,
+#rectangle4,
+#rectangle5 {
+    position: $position;
+    width: $rectangleWidth;
+    height: $rectangleHeight;
+    top: $top;
+    background: $white;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+}
+
+#rectangle1 {
+    left: 105px;
+}
+
+#rectangle2 {
+    left: 242px;
+}
+
+#rectangle3 {
+    left: 379px;
+}
+
+#rectangle4 {
+    left: 516px;
+}
+
+#rectangle5 {
+    left: 653px;
+}
+
+#blue,
+#purple,
+#red,
+#orange,
+#green {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 107px;
+}
+
+#blue {
+    left: 117px;
+}
+
+#purple {
+    left: 253px;
+}
+
+#red {
+    left: 391px;
+}
+
+#orange {
+    left: 528px;
+}
+
+#green {
+    left: 665px;
+}
+
+#meetingIcon1 {
+    position: $position;
+    width: 10.46px;
+    height: 11.27px;
+    left: 122.56px;
+    top: 117.26px;
+}
+
+#meetingIcon2 {
+    position: $position;
+    width: 10.05px;
+    height: 11.27px;
+    left: 132.44px;
+    top: 115.61px;
+}
+
+#itemsIcon {
+    position: $position;
+    width: 15px;
+    height: 16px;
+    left: 262px;
+    top: 115px;
+}
+
+#actionsIcon {
+    position: $position;
+    width: 19px;
+    height: 19px;
+    left: 397px;
+    top: 113px;
+}
+
+#remindersIcon1 {
+    position: $position;
+    width: 16.2px;
+    height: 16.2px;
+    left: 535px;
+    top: 114px;
+}
+
+#remindersIcon2 {
+    position: $position;
+    width: 9px;
+    height: 9px;
+    left: 543.1px;
+    top: 123px;
+}
+
+#notesIcon {
+    position: $position;
+    width: 13px;
+    height: 17px;
+    left: 674px;
+    top: 114px;
+}
+
+#meetingsText,
+#itemsText,
+#actionsText,
+#remindersText,
+#notesText {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    top: 144px;
+}
+
+#meetingsText {
+    width: 66px;
+    height: 12px;
+    left: 117px;
+}
+
+#itemsText {
+    width: 66px;
+    height: 12px;
+    left: 254px;
+}
+
+#actionsText {
+    width: 66px;
+    height: 12px;
+    left: 391px;
+}
+
+#remindersText {
+    width: 61px;
+    height: 12px;
+    left: 528px;
+}
+
+#notesText {
+    width: 66px;
+    height: 12px;
+    left: 665px;
+}
+
+#btnQuickItem {
+    position: $position;
+    width: 120px;
+    height: 30px;
+    left: 1369px;
+    top: 97px;
+    background: #1495F0;
+    border: 1px solid #1495F0;
+    border-radius: 5px;
+}
+
+#quickItem {
+    width: 85px;
+    height: 12px;
+    left: 1384px;
+    top: 106px;
+    line-height: 12px;
+    text-align: right;
+    font-weight: 500;
+    font-size: 14px;
+    color: $white;
+}

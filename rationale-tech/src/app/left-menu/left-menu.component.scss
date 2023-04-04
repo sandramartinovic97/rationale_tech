@@ -1,0 +1,115 @@
+$position: absolute;
+$white: #FFFFFF;
+$blue: #1495F0;
+#left-menu {
+    position: $position;
+    width: 60px;
+    height: 778px;
+    left: 0px;
+    top: 0px;
+    background: $blue;
+}
+
+#pulseIcon {
+    position: $position;
+    width: 18px;
+    height: 17.5px;
+    left: 21px;
+    top: 65px;
+}
+
+#meetingIcon1 {
+    position: $position;
+    width: 12.15px;
+    height: 13.08px;
+    left: 19.46px;
+    top: 194.92px;
+}
+
+#meetingIcon2 {
+    position: $position;
+    width: 11.68px;
+    height: 13.08px;
+    left: 30.92px;
+    top: 193px;
+}
+
+#itemsIcon {
+    position: $position;
+    width: 17px;
+    height: 18px;
+    left: 22px;
+    top: 239px;
+}
+
+#actionsIcon {
+    position: $position;
+    width: 19px;
+    height: 19px;
+    left: 21px;
+    top: 288px;
+}
+
+p {
+    position: $position;
+    height: 10px;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: $white;
+}
+
+#pulseText {
+    width: 26px;
+    left: 17px;
+    top: 88px;
+}
+
+#pulseText:focus {
+    position: $position;
+    background-color: $white;
+    color: $blue;
+    height: 20px;
+}
+
+#meetingText {
+    width: 39px;
+    left: 12px;
+    top: 213px;
+}
+
+#meetingText:focus {
+    position: $position;
+    background-color: $white;
+    color: $blue;
+    height: 20px;
+}
+
+#itemsText {
+    width: 26px;
+    left: 17px;
+    top: 262px;
+}
+
+#itemsText:focus {
+    position: $position;
+    background-color: $white;
+    color: $blue;
+    height: 20px;
+}
+
+#actionsText {
+    width: 37px;
+    left: 12px;
+    top: 312px;
+}
+
+#actionsText:focus {
+    position: $position;
+    background-color: $white;
+    color: $blue;
+    height: 20px;
+}

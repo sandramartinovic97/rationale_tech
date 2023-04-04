@@ -1,0 +1,428 @@
+$position: absolute;
+$white: #FFFFFF;
+$font-family: 'Metropolis';
+$font-style: normal;
+
+/*two main rectangles*/
+
+.oval {
+    position: $position;
+    width: 620px;
+    height: 256px;
+    top: 502px;
+    background: $white;
+    box-shadow: 0px 0px 20px rgba(154, 154, 154, 0.1);
+    border-radius: 10px;
+}
+
+#oval1 {
+    left: 105px;
+}
+
+#oval2 {
+    left: 869px;
+}
+
+
+/*two lines in those two rectangles*/
+
+#line1,
+#line2 {
+    position: $position;
+    width: 620px;
+    height: 0px;
+    top: 530px;
+    border: 0.7px solid #F2F2F2;
+}
+
+#line1 {
+    left: 105px;
+}
+
+#line2 {
+    left: 869px;
+}
+
+
+/*all texts*/
+
+.p {
+    font-family: $font-family;
+    font-style: $font-style;
+}
+
+#textOval1 {
+    position: $position;
+    width: 127px;
+    height: 14px;
+    left: 125px;
+    top: 509px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #120C39;
+}
+
+#textOval11 {
+    position: $position;
+    width: 220px;
+    height: 12px;
+    left: 125px;
+    top: 525px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    color: #8598AD;
+    transform: rotate(-0.12deg);
+}
+
+#textOval2 {
+    position: $position;
+    width: 113px;
+    height: 14px;
+    left: 890px;
+    top: 509px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #EA4335;
+}
+
+#textOval22 {
+    position: $position;
+    width: 142px;
+    height: 12px;
+    left: 890px;
+    top: 525px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    color: #8598AD;
+    transform: rotate(-0.12deg);
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4,
+#photo5,
+#photo6,
+#photo7,
+#photo8 {
+    position: $position;
+    width: 36px;
+    height: 36px;
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4 {
+    left: 125px;
+}
+
+#photo5,
+#photo6,
+#photo7,
+#photo8 {
+    left: 890px;
+}
+
+#photo1,
+#photo5 {
+    top: 560px;
+}
+
+#photo2,
+#photo6 {
+    top: 610px;
+}
+
+#photo3,
+#photo7 {
+    top: 660px;
+}
+
+#photo4,
+#photo8 {
+    top: 710px;
+}
+
+#textPhoto1,
+#textPhoto2,
+#textPhoto3,
+#textPhoto4,
+#textPhoto11,
+#textPhoto22,
+#textPhoto33,
+#textPhoto44 {
+    position: $position;
+    left: 177px;
+}
+
+#textPhoto1,
+#textPhoto2,
+#textPhoto3,
+#textPhoto4,
+#textPhoto5,
+#textPhoto6,
+#textPhoto7,
+#textPhoto8 {
+    width: 188px;
+    height: 13px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #120C39;
+}
+
+#textPhoto1,
+#textPhoto5 {
+    top: 564px;
+}
+
+#textPhoto2,
+#textPhoto6 {
+    top: 616px;
+}
+
+#textPhoto3,
+#textPhoto7 {
+    top: 666px;
+}
+
+#textPhoto4,
+#textPhoto8 {
+    top: 716px;
+}
+
+#textPhoto11,
+#textPhoto22,
+#textPhoto33,
+#textPhoto44,
+#textPhoto55,
+#textPhoto66,
+#textPhoto77,
+#textPhoto88 {
+    width: 110px;
+    height: 12px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    color: #8598AD;
+    transform: rotate(-0.12deg);
+}
+
+#textPhoto11,
+#textPhoto55 {
+    top: 579px;
+}
+
+#textPhoto22,
+#textPhoto66 {
+    top: 631px;
+}
+
+#textPhoto33,
+#textPhoto77 {
+    top: 681px;
+}
+
+#textPhoto44,
+#textPhoto88 {
+    top: 731px;
+}
+
+#textPhoto5,
+#textPhoto6,
+#textPhoto7,
+#textPhoto8,
+#textPhoto55,
+#textPhoto66,
+#textPhoto77,
+#textPhoto88 {
+    position: $position;
+    left: 940px;
+}
+
+
+/*progress bars on the left side*/
+
+#ovalProgressBar1 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 646px;
+    top: 580px;
+    background: #CBCBCB;
+    border-radius: 6.5px;
+}
+
+#progressBar1 {
+    position: $position;
+    width: 47px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #1495F0;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ovalProgressBar2 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 646px;
+    top: 630px;
+    background: #CBCBCB;
+    border-radius: 6.5px;
+}
+
+#progressBar2 {
+    position: $position;
+    width: 20px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #EA4335;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ovalProgressBar3 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 646px;
+    top: 680px;
+    background: #CBCBCB;
+    border-radius: 6.5px;
+}
+
+#progressBar3 {
+    position: $position;
+    width: 33px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #FE993B;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ovalProgressBar4 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 646px;
+    top: 730px;
+    background: #CBCBCB;
+    border-radius: 6.5px;
+}
+
+#progressBar4 {
+    position: $position;
+    width: 54px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #5CB85C;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*progress bars on the right side*/
+
+#ovalProgressBar5 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 1410px;
+    top: 580px;
+    background: #EDEDED;
+    border-radius: 6.5px;
+}
+
+#progressBar5 {
+    position: $position;
+    width: 20px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #EA4335;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ovalProgressBar6 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 1410px;
+    top: 630px;
+    background: #EDEDED;
+    border-radius: 6.5px;
+}
+
+#progressBar6 {
+    position: $position;
+    width: 47px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #1495F0;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ovalProgressBar7 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 1410px;
+    top: 680px;
+    background: #EDEDED;
+    border-radius: 6.5px;
+}
+
+#progressBar7 {
+    position: $position;
+    width: 54px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #5CB85C;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ovalProgressBar8 {
+    position: $position;
+    width: 59px;
+    height: 13px;
+    left: 1410px;
+    top: 730px;
+    background: #EDEDED;
+    border-radius: 6.5px;
+}
+
+#progressBar8 {
+    position: $position;
+    width: 33px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background: #FE993B;
+    border-radius: 6.5px;
+    text-align: center;
+    font-size: 12px;
+}

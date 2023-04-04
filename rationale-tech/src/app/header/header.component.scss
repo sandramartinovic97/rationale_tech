@@ -1,0 +1,128 @@
+$position: absolute;
+$filter: blur(0.5px);
+$white: #FFFFFF;
+$blue: #1495F0;
+#header {
+    position: $position;
+    width: 1475px;
+    height: 50px;
+    left: 60px;
+    top: 0px;
+    background: $white;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+}
+
+.toolbar {
+    #F {
+        position: $position;
+        width: 9.35px;
+        height: 12.42px;
+        left: 48px;
+        top: 19.24px;
+        filter: $filter;
+    }
+    #O {
+        position: $position;
+        width: 13.03px;
+        height: 12.85px;
+        left: 59.08px;
+        top: 19.02px;
+    }
+    #Ellipse {
+        position: $position;
+        width: 3.52px;
+        height: 3.52px;
+        left: 63.79px;
+        top: 23.62px;
+    }
+    #CUS {
+        position: $position;
+        width: 35.8px;
+        height: 12.87px;
+        left: 73.64px;
+        top: 19px;
+        filter: $filter;
+    }
+    #notificationImage {
+        position: $position;
+        width: 16px;
+        height: 18px;
+        left: 0px;
+        top: 0px;
+    }
+    #notificationEllipse {
+        position: $position;
+        width: 14px;
+        height: 14px;
+        left: 1450px;
+        top: 14px;
+    }
+    #notificationNumber {
+        position: $position;
+        width: 8.67px;
+        height: 11.56px;
+        left: 1454px;
+        top: 17px;
+        font-family: 'Metropolis';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 9px;
+        color: $white;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+        position: absolute;
+        width: 149px;
+        height: 84px;
+        left: 529px;
+        top: 1178px;
+        background: $white;
+        border-radius: 12px;
+        background-color: black;
+    }
+    #notification1:hover {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 12px;
+        gap: 10px;
+        width: 133px;
+        background-color: $blue;
+        border-radius: 6px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    #notification2:hover {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 12px;
+        gap: 10px;
+        width: 133px;
+        background-color: $blue;
+        border-radius: 6px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .button1 {
+        background-color: transparent;
+        position: $position;
+        width: 16px;
+        height: 18px;
+        left: 1440px;
+        top: 17px;
+    }
+    .dropdown-menu {
+        left: 1300px;
+        top: 50px;
+        color: $white;
+    }
+}
